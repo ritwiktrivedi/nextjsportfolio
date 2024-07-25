@@ -6,27 +6,34 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
-    description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+    name: "GitHub Portfolio Page",
+    description: "Portfilio built with HTML, CSS, JavaScript and Bootstrap.",
+    image: "/htmlcssportfolio.png",
+    github: "#",
+    link: "https://ritwiktrivedi.github.io/",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "NextJS Portfolio",
+    description: "Portfilio built with NextJS and TailwindCSS.",
+    image: "/nextjsportfolio.png",
+    github: "#",
+    link: "#",
   },
   {
-    name: "Kator Family Photos",
+    name: "Been There, Doon That?",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      "A no code / low code web site built first on WordPress and then later shifted to Wix.",
+    image: "/btdt.png",
+    github: "#",
+    link: "https://www.beentheredoonthat.org/",
+  },
+  {
+    name: "Nature Vidya Portal",
+    description:
+      "A low code multilingual web site built on Wix.",
+    image: "/naturevidya.png",
+    github: "#",
+    link: "https://www.naturevidya.org/",
   },
 ]
 
@@ -35,7 +42,7 @@ const ProjectsSection = () => {
     <section id="projects">
       <h1 className="my-10 text-center font-bold text-4xl">
         Projects
-        <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
+        <hr className="w-6 h-1 mx-auto my-4 bg-zinc-500 border-0 rounded"></hr>
       </h1>
 
       <div className="flex flex-col space-y-28">
@@ -61,12 +68,12 @@ const ProjectsSection = () => {
                       {project.description}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
-                      <Link href={project.github} target="_blank">
+                      {/* <Link href={project.github} target="_blank">
                         <BsGithub
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
-                      </Link>
+                      </Link> */}
                       <Link href={project.link} target="_blank">
                         <BsArrowUpRightSquare
                           size={30}

@@ -2,8 +2,6 @@
 
 I have used a template for creating a portfolio with Tailwind CSS and Next.js.
 
-![Portfolio Demo](demo/demo.gif)
-
 ## How it works
 
 Fork or download the repo and change whatever you need to change for your needs if you also want to change use the template. Make sure you also include
