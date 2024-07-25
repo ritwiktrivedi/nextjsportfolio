@@ -53,7 +53,7 @@ const AboutSection = () => {
             <p>
             I have a variety of hobbies and passions that keep me engaged, 
             including reading, hiking, practicing French, and playing the piano.
-             I'm always on the lookout for new experiences and enjoy constantly learning new things.
+             I&#39;m always on the lookout for new experiences and enjoy constantly learning new things.
             </p>
             <br />
             <p>
@@ -61,8 +61,8 @@ const AboutSection = () => {
             <span className="font-bold text-zinc-500">
              continuous growth
             </span>{" "} and strive to embody that principle. 
-            My passion for technology drives me to explore and push the boundaries of what's possible.
-             I'm eager to see where my career leads and always open to new opportunities. 
+            My passion for technology drives me to explore and push the boundaries of what&#39;s possible.
+             I&#39;m eager to see where my career leads and always open to new opportunities. 
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
