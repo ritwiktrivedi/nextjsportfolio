@@ -31,17 +31,17 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Ritwik and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
+              Hi, my name is Ritwik and I am an{" "}
+              <span className="font-bold">{"ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
               <span className="font-bold">{" driven"}</span> software engineer
               based in Dehradun, India.
             </p>
             <br />
             <p>
-              I have multiple degrees, a BBA from Amity university Noida which I got in 2017,
-              an MBA from IRMA or Institute of Rural Management Anand which I got in 2020 and 
-              I have been undergoing a BS in Data Science and Applications from IIT Madras since 2022.
+              I have multiple degrees. Currently, I am undergoing a BS in Data Science and Applications from IIT Madras.
+              My past degrees are: an MBA from IRMA or Institute of Rural Management Anand which I got in 2020 and 
+              a BBA from Amity university Noida which I got in 2017.
               
             </p>
             <br />
