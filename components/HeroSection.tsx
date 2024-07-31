@@ -21,7 +21,7 @@ const HeroSection = () => {
           <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Ritwik!</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m an{" "}
-            <span className="font-semibold text-zinc-600">
+            <span className="font-semibold text-orange-600">
               AI and Software Engineer{" "}
             </span>
             based in India. 

@@ -32,9 +32,9 @@ const AboutSection = () => {
             </h1>
             <p>
               Hi, my name is Ritwik and I am an{" "}
-              <span className="font-bold">{"ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
+              <span className="font-bold text-orange-600">{"ambitious"}</span>,
+              <span className="font-bold text-orange-600">{" self-motivated"}</span>, and
+              <span className="font-bold text-orange-600">{" driven"}</span> software engineer
               based in Dehradun, India.
             </p>
             <br />
@@ -58,7 +58,7 @@ const AboutSection = () => {
             <br />
             <p>
             I believe in{" "}
-            <span className="font-bold text-zinc-500">
+            <span className="font-bold text-orange-600">
              continuous growth
             </span>{" "} and strive to embody that principle. 
             My passion for technology drives me to explore and push the boundaries of what&#39;s possible.
@@ -72,7 +72,7 @@ const AboutSection = () => {
                 return (
                   <p
                     key={idx}
-                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
+                    className="bg-orange-100 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
                   >
                     {item.skill}
                   </p>
